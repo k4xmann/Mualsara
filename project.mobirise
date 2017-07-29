@@ -266,7 +266,7 @@
                 "showTitle": true,
                 "title": "<br><br>",
                 "showText": true,
-                "text": "<span style=\"font-family: Roboto, sans-serif; line-height: 1.5;\"><br></span><br><span style=\"font-family: Roboto, sans-serif; line-height: 1.5;\"><br></span><span style=\"font-family: Roboto, sans-serif; line-height: 1.5;\">We have a disaster recovery plan &nbsp;</span><br>put in place to ensure immediate<br>remediation action for clients'<br>cargo and safety plan during <br>discharge of our duties.<br>",
+                "text": "<span style=\"font-family: Roboto, sans-serif; line-height: 1.5;\"><br></span><br><span style=\"font-family: Roboto, sans-serif; line-height: 1.5;\"><br></span><br><br>We have a disaster recovery plan  <br>put in place to ensure immediate<br>remediation action for clients'<br>cargo and safety plan during <br>discharge of our duties.<br>",
                 "showButtons": false,
                 "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">LAND</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">OCEAN</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">AIR</a>"
               }
