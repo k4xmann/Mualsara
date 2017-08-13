@@ -15,135 +15,34 @@
         "titleFont": "Montserrat",
         "subtitleFont": "Roboto",
         "textFont": "Raleway",
-        "isRoundedButtons": true,
+        "isRoundedButtons": false,
         "isAnimatedOnScroll": true,
         "isScrollToTopButton": true,
         "isRtl": false
-      }
+      },
+      "additionalSetColors": []
     },
-    "favicon": "",
+    "favicon": "@PROJECT_PATH@/assets/images/mualsara-logo-128x1181.png",
     "noImageResize": "",
     "versionFirst": "3.12.1",
-    "uniqCompNum": 54,
-    "versionPublish": "3.12.1",
+    "uniqCompNum": 64,
+    "versionPublish": "4.1.2",
     "path": "@PROJECT_PATH@",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "google-analytics": ""
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
-        "title": "",
-        "meta_descr": "",
+        "title": "Mualsara Nigeria Limited | Home",
+        "meta_descr": "Home page for Mualsara Nigeria Limited",
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
         "order": 1
       },
       "components": [
-        {
-          "_styles": {
-            ".hide-buttons .nav-btn": {
-              "display": "none !important"
-            },
-            ".navbar-caption": {
-              "color": "#ffffff",
-              "font-size": "25px",
-              "font-family": "'Merriweather', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Merriweather:400,300,700"
-            },
-            ".navbar-toggler": {
-              "color": "#ffffff"
-            },
-            ".link, .dropdown-item": {
-              "color": "#ffffff"
-            },
-            ".link": {
-              "font-size": "0.6rem"
-            },
-            ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.650rem"
-            },
-            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
-              "color": "#c0a375"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#0e0e0e"
-            },
-            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#202020!important"
-            },
-            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#282828"
-            },
-            ".bg-color.transparent .link": {
-              "color": "#ffffff",
-              "transition": "none"
-            },
-            ".bg-color.transparent.opened .link": {
-              "transition": "color .2s ease-in-out"
-            },
-            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
-              "color": "#c0a375"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#c0a375!important"
-            },
-            ".close-icon::before, .close-icon::after": {
-              "background-color": "#ffffff"
-            }
-          },
-          "_name": "menu",
-          "_anchor": "menu-0",
-          "_params": {
-            "bgColor": "#282828",
-            "fontSize": "0.6",
-            "fontName": {},
-            "fontColor": "#ffffff",
-            "fontHoverColor": "#c0a375",
-            "transparent": true,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": false
-          },
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/logo-mualsara-raw-139x128.png",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "https://mualsara.com.ng",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
-              "size": 0
-            }
-          },
-          "brand": "<a class=\"navbar-caption text-white\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MUALSARA NIGERIA LIMITED</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white-outline btn-white\" href=\"index.html\">HOME</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"about.html\">ABOUT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"services.html\">SERVICES</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"clients.html\">CLIENTS</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"contact.html\">CONTACT</a></li>"
-        },
-        {
-          "_name": "footer1",
-          "_anchor": "footer1-2",
-          "_params": {
-            "paddingTop": "1",
-            "paddingBottom": "1",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#432827",
-            "bgColorRadio": true,
-            "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
-          },
-          "text": "Copyright (c) 2017 Mualsara Nigeria Limited"
-        },
         {
           "_tags": [
             "Theme"
@@ -176,9 +75,12 @@
           },
           "_params": {
             "autoplay": true,
+            "fullScreen": true,
             "paddingTop": 3,
             "paddingBottom": 3,
-            "timeout": "10",
+            "showBullets": false,
+            "bgColor": "#fff",
+            "timeout": "4",
             "slides": [
               {
                 "active": true,
@@ -191,7 +93,7 @@
                 "showTitle": true,
                 "title": "<br><br>",
                 "showText": true,
-                "text": "<span style=\"font-family: Roboto, sans-serif; line-height: 1.5;\">&nbsp;</span><br><br><br><br>Over years, we have contributed&nbsp;<br>and improved immensely&nbsp;in&nbsp;managing <br>project cargo for the Manufacturing, <br>Oil and Gas, Power and Construction &nbsp;<br>Industries.<b style=\"font-style: italic;\"><br></b>",
+                "text": "<span style=\"font-family: Roboto, sans-serif; line-height: 1.5;\">&nbsp;</span><br><br><br><br><br>Over years, we have contributed&nbsp;<br>and improved immensely&nbsp;in&nbsp;managing <br>project cargo for the Manufacturing, <br>Oil and Gas, Power and Construction<br>Industries.<br><b style=\"font-style: italic;\"><br></b>",
                 "showButtons": false,
                 "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">LAND</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">OCEAN</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">AIR</a>"
               },
@@ -270,13 +172,159 @@
                 "showButtons": false,
                 "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">LAND</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">OCEAN</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">AIR</a>"
               }
-            ],
-            "fullScreen": true,
-            "bgColor": "#fff",
-            "showBullets": false
+            ]
           },
           "_anchor": "slider-d",
           "articleLayout": false
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-1j",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
+            "overlay": false,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": "0"
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/mualsara-logo-128x118.png",
+              "width": 128,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "text1": "<strong>Address</strong><br>\n1234 Street Name<br>\nCity, AA 99999",
+          "text2": "<strong>Contacts</strong><br>\nEmail: support@mobirise.com<br>\nPhone: +1 (0) 000 0000 001<br>\nFax: +1 (0) 000 0000 002",
+          "text3": "<font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\"><span style=\"font-size: 16px; letter-spacing: -1px;\"><b>Designed by</b></span></font><br><br>K4oxMedia Interactive<br>www.k4oxmedia.com<br>info@k4oxmedia.com",
+          "_styles": {
+            "P": {
+              "color": "#f7da64"
+            }
+          }
+        },
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-2",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#432827",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "Copyright (c) 2017 Mualsara Nigeria Limited"
+        },
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
+              "font-size": "25px"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#fac51c!important"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">MENU</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">HOME</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"about.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">ABOUT US</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"about.html#content6-n\" aria-expanded=\"false\">Our Story</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"about.html#content7-13\">Our Policies</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"about.html#content5-14\" aria-expanded=\"false\">The Team</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"about.html#content5-1h\" aria-expanded=\"false\">Professional Associations</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"services.html\" aria-expanded=\"false\">OUR SERVICES</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"clients.html\">OUR CLIENTS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"contact.html\">CONTACT US</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">DOWNLOADS</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://www.customs.gov.ng/Tariff/CET_tariff.xls\" target=\"_blank\">HS CODES OFFLINE VERSION &nbsp;</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">COMPANY PROFILE PDF</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\"></a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white-outline btn-white\" href=\"https://www.customs.gov.ng/Tariff/index.php\" target=\"_blank\"><span class=\"mbri-file mbr-iconfont mbr-iconfont-btn\"></span>NIGERIA CUSTOMS HS CODES</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/mualsara-logo-138x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "www.mualsara.com",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption text-white\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MUALSARA NIGERIA LIMITED</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-1q"
         }
       ]
     },
@@ -307,7 +355,7 @@
             "paddingBottom": "2",
             "bgColor": "#c1c1c1"
           },
-          "text1": "<h2>About us</h2><p>Out of the passion to offer seamless logistics services to meet the ever increasing demand for direct services to Clients and the Nigeria Ports Authority with special focus on freight forwarding, customs clearing, shipping and logistics support services, Mualsara Nigeria Limited was incorporated on 5th June 2007 under the Corporate Affairs Commission of Nigeria with <i>RC No. 694022</i>.</p><p>Mualsara Nigeria Limited also known as MNL has since its inception provided advanced customer-specific value creating solutions supported by an IT based Supply Chain Management (SCM) System.</p><p><br></p>",
+          "text1": "<h2>Our Story</h2><p>Out of the passion to offer seamless logistics services to meet the ever increasing demand for direct services to Clients and the Nigeria Ports Authority with special focus on freight forwarding, customs clearing, shipping and logistics support services, Mualsara Nigeria Limited was incorporated on 5th June 2007 under the Corporate Affairs Commission of Nigeria with <i>RC No. 694022</i>.</p><p>Mualsara Nigeria Limited also known as MNL has since its inception provided advanced customer-specific value creating solutions supported by an IT based Supply Chain Management (SCM) System.</p><p><br></p>",
           "text2": "<p><br></p><p>We handle services on conventional shipments and we have also contributed over years and immensely improved in managing Project cargo for clients in the Oil and Gas Industry. As a customs clearing and forwarding agent, Mualsara Nigeria Limited is fully operational in Nigeria through its offices that guarantee an effective presence of the company all across the country.&nbsp;</p><p>Our experienced staff are always dedicated to provide you with logistics solutions, customized to yo<span style=\"font-size: 1.07rem; line-height: 1.5;\">ur particular needs. Our core interest lies in serving customers with global sourcing and supply-chain management needs, creating value through innovative logistics solutions and ensuring satisfactory delivery of their total logistics requirements and services relating to their business.</span></p>"
         },
         {
@@ -317,24 +365,27 @@
             },
             ".navbar-caption": {
               "color": "#ffffff",
-              "font-size": "25px",
-              "font-family": "'Merriweather', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Merriweather:400,300,700"
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
+              "font-size": "25px"
             },
             ".navbar-toggler": {
               "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
             },
             ".link, .dropdown-item": {
               "color": "#ffffff"
             },
             ".link": {
-              "font-size": "0.6rem"
+              "font-size": "0.7rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.650rem"
+              "font-size": "0.758rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
-              "color": "#c0a375"
+              "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
               "background": "#0e0e0e"
@@ -353,48 +404,49 @@
               "transition": "color .2s ease-in-out"
             },
             ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
-              "color": "#c0a375"
+              "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#c0a375!important"
-            },
-            ".close-icon::before, .close-icon::after": {
-              "background-color": "#ffffff"
+              "color": "#fac51c!important"
             }
           },
           "_name": "menu",
           "_anchor": "menu-2",
           "_params": {
-            "bgColor": "#282828",
-            "fontSize": "0.6",
-            "fontName": {},
-            "fontColor": "#ffffff",
-            "fontHoverColor": "#c0a375",
-            "transparent": true,
-            "sticky": true,
             "logo": true,
             "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
             "collapsed": true,
-            "hideButtons": false
+            "transparent": true,
+            "bgColor": "#282828",
+            "fontSize": "0.7",
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/logo-mualsara-raw-139x128.png",
+              "src": "@PROJECT_PATH@/assets/images/mualsara-logo-138x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "",
+              "link": "www.mualsara.com",
               "title": "",
               "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
               "link": "https://mobirise.com",
-              "size": 0
+              "size": 0,
+              "linkInNewWindow": false,
+              "name": "mobirise",
+              "family": "MobiriseIcons",
+              "newWindow": false
             }
           },
-          "brand": "<a class=\"navbar-caption text-white\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MUALSARA NIGERIA LIMITED</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white-outline btn-white\" href=\"index.html\">HOME</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"about.html\">ABOUT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"services.html\">SERVICES</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"clients.html\">CLIENTS</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"contact.html\">CONTACT</a></li>"
+          "brand": "<a class=\"navbar-caption text-white\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MUALSARA NIGERIA LIMITED</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">MENU</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">HOME</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"about.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">ABOUT US</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"about.html#content6-n\" aria-expanded=\"false\">Our Story</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"about.html#content7-13\">Our Policies</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"about.html#content5-14\" aria-expanded=\"false\">The Team</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"about.html#content5-1h\" aria-expanded=\"false\">Professional Associations</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"services.html\" aria-expanded=\"false\">OUR SERVICES</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"clients.html\">OUR CLIENTS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"contact.html\">CONTACT US</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">DOWNLOADS</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://www.customs.gov.ng/Tariff/CET_tariff.xls\" target=\"_blank\">HS CODES OFFLINE VERSION &nbsp;</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">COMPANY PROFILE PDF</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\"></a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white-outline btn-white\" href=\"https://www.customs.gov.ng/Tariff/index.php\" target=\"_blank\"><span class=\"mbri-file mbr-iconfont mbr-iconfont-btn\"></span>NIGERIA CUSTOMS HS CODES</a></li>"
         },
         {
           "_inherit": "features1",
@@ -407,38 +459,41 @@
               "background-color": "#2e2e2e"
             },
             ".mbr-cards-col:nth-child(even) .card-title": {
-              "color": "#ffffff"
+              "color": "#000000"
             },
             ".mbr-cards-col:nth-child(even) .card-text": {
               "color": "#232323"
             },
             ".mbr-cards-col:nth-child(even) .card-text B": {
-              "color": "#ffffff"
+              "color": "#000000"
+            },
+            ".mbr-cards-col:nth-child(even) .card-subtitle": {
+              "text-align": "left"
             }
           },
           "_anchor": "features2-p",
           "_params": {
+            "showImages": false,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": true,
+            "showButtons": false,
             "columnsColor": "#2e2e2e",
             "paddingTop": "3",
             "paddingBottom": "3",
+            "columns": "3",
             "bgImageRadio": true,
-            "parallax": true,
             "bgImage": "@PROJECT_PATH@/assets/images/10-pipes-on-truck-rear-610x293-2000x960.jpg",
-            "bgColor": "#fff",
+            "parallax": true,
             "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "columns": "3",
-            "showImages": false,
-            "showTitles": true,
-            "showSubtitles": false,
-            "ShowTexts": true,
-            "showButtons": false
+            "overlayOpacity": 0.5
           },
           "media1": {
             "iconFont": {
@@ -451,8 +506,8 @@
             }
           },
           "title1": "OUR VISION",
-          "subtitle1": "Bootstrap 4 has been noted",
-          "caption1": "<b><br>Our vision is to be the Africa's trustworthy and foremost leader in sea and air logistics handling.</b><br>",
+          "subtitle1": "",
+          "caption1": "<b><br>Our vision is to be Africa's trustworthy and foremost leader in sea and air logistics handling.</b><br>",
           "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media2": {
             "iconFont": {
@@ -465,7 +520,7 @@
             }
           },
           "title2": "OUR MISSION",
-          "subtitle2": "One of Bootstrap 4's big points",
+          "subtitle2": "",
           "caption2": "<b>Our Mission is to be dedicated to providing our clients the best domestic and international standard logistics service solutions, using our networks, expertise and modern technology.</b>",
           "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media3": {
@@ -479,7 +534,7 @@
             }
           },
           "title3": "OUR VALUE",
-          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "subtitle3": "",
           "caption3": "<b>Our core values include to promote trust, transparency and integrity in all our dealings. To be passionate and determined for service delivery to support our clients and stakeholders in our business drive to ensure highest standards in our services. To achieve our goals as a team . To appreciate business opportunities with our clients and partners.</b>",
           "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media4": {
@@ -535,7 +590,8 @@
               "color": "#28324e"
             },
             "P": {
-              "color": "#28324e"
+              "color": "#28324e",
+              "text-align": "left"
             }
           },
           "_anchor": "content7-13",
@@ -544,7 +600,7 @@
             "paddingBottom": "0",
             "bgColor": "#cccccc"
           },
-          "text1": "<h2>Policies</h2><p>Like many business minded organizations, Mualsara Nigeria Limited has a set of policies which enhances our service performance and on which our success and survival depends on.&nbsp;</p><p><b style=\"font-size: 1.07rem; line-height: 1.5;\">Health, Safety and Environment </b><span style=\"font-size: 1.07rem; line-height: 1.5;\">&nbsp;&nbsp;</span><br></p><p>Mualsara Nigeria Ltd. engages the services of a health and safety consultant on retainer-ship. The HSE unit organizes regular safety drills to Staff. The  Safety  Officer  ensures  that all personnel receive adequate safety training  for  the  job  to  be  done.   With the team he/she reviews all the        jobs before the commencement to adequately identify all potential  hazards and initiate mitigation plans.</p><p>Every staff has the responsibility to work safely to protect himself/herself and others  from  any injury during operation  and  avoid having a Loss Time  Injury  (LTI).  We are compelled to follow safety routines, processes protocols as  prescribed  in the Company Safety regulations.&nbsp;</p><p><br></p><p><br></p><p><br></p>",
+          "text1": "<h2>Our Policies</h2><p>Like many business minded organizations, Mualsara Nigeria Limited has a set of policies which enhances our service performance and on which our success and survival depends on.&nbsp;</p><p><b style=\"font-size: 1.07rem; line-height: 1.5;\">Health, Safety and Environment </b><span style=\"font-size: 1.07rem; line-height: 1.5;\">&nbsp;&nbsp;</span><br></p><p>Mualsara Nigeria Ltd. engages the services of a health and safety consultant on retainer-ship. The HSE unit organizes regular safety drills to Staff. The  Safety  Officer  ensures  that all personnel receive adequate safety training  for  the  job  to  be  done.   With the team he/she reviews all the        jobs before the commencement to adequately identify all potential  hazards and initiate mitigation plans.</p><p>Every staff has the responsibility to work safely to protect himself/herself and others  from  any injury during operation  and  avoid having a Loss Time  Injury  (LTI).  We are compelled to follow safety routines, processes protocols as  prescribed  in the Company Safety regulations.&nbsp;</p><p><br></p><p><br></p><p><br></p>",
           "text2": "<p><span style=\"font-size: 1.07rem; line-height: 1.5;\"><br></span></p><p><span style=\"font-size: 1.07rem; line-height: 1.5;\"><br></span></p><p><span style=\"font-size: 1.07rem; line-height: 1.5;\"><br></span></p><p><span style=\"font-size: 1.07rem; line-height: 1.5;\">In the event of a hazard or damage of cargo,&nbsp;</span><br></p><p>MNL has a disaster recovery plan put in place to ensure the safety of personnel and immediate remediation action for client's cargo. This is a reflection of our untiring commitment to Safety.&nbsp;</p><p>During cargo operations and rigging activities, there are potential hazards. Not only do we adhere to safety standards we also appreciate environmental regulations, we more so learn from our own experiences in the shipping industry and integrate improved pollution avoidance and safety cargo handling practices into the company training programs and daily operations.</p><p><b style=\"font-size: 1.07rem; line-height: 1.5;\">Quality Management System and Assurance</b><br></p><p><span style=\"font-size: 1.07rem; line-height: 1.5;\">Mualsara Nigeria Ltd. ensures that our word is bond. We focus on achieving our goals to satisfy our customers and to keep to the international quality service standard by inviting external auditors to analyze&nbsp;</span><br></p><p><br></p><p><br></p>",
           "text3": "<p><b><br></b></p><p><b><br></b></p><p><span style=\"color: rgb(35, 35, 35); font-size: 1.07rem; line-height: 1.5;\"><br></span></p><p><span style=\"color: rgb(35, 35, 35); font-size: 1.07rem; line-height: 1.5;\">operations processes and procedures.</span><br></p><p><span style=\"font-size: 1.07rem; color: rgb(35, 35, 35); line-height: 1.5;\">MNL also have among the management team a seasoned Quality Management System (QMS) ISO 9001:2015 IRCA Certified Lead Auditor whose role is to guide the organization in keeping to acceptable international standards and aid her attain the complete status as an ISO 9001.2015 Certified Company.</span><br></p><p><b>Competence Management and Training</b></p><p>As Martin Van Buren said “it is easier to do a job right than to explain why you didn't”. At MNL, it is our belief that knowledge is power. Having the right skills developed would make our staff competent in carrying out their tasks. We do not take ignorance of the law or shortcomings in technical logistics knowledge for granted.</p><p>We ensure that our staff are trained routinely, attend Seminars organized by government agencies and are updated with the latest government and international regulations.</p>"
         },
@@ -566,22 +622,22 @@
           "_name": "content5",
           "_anchor": "content5-14",
           "_params": {
+            "showTitle": true,
+            "showCaption": true,
             "paddingTop": "0",
             "paddingBottom": "0",
             "bgImageRadio": true,
-            "parallax": true,
             "bgImage": "@PROJECT_PATH@/assets/images/forklift-warehouse-2000x1126.jpg",
-            "bgColor": "#fff",
+            "parallax": true,
             "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": "0.4",
             "overlayColor": "#000000",
-            "showTitle": true,
-            "showCaption": true
+            "overlayOpacity": "0.4"
           },
           "title": "<br>The Team",
           "caption": "<p><span style=\"line-height: 1.5;\">Our personnel are well acquainted with the challenging needs and changing demands of today's businesses. They deal with your day to day problems and adhere to formalities in accordance to the Nigeria Customs clearance regulations and procedures of import and export of cargo.  Our field representatives have also built a trust relationship with other law enforcement agencies and Port Authorities at our operational locations such as NAFDAC,  Nigeria Immigration Services,  NDLEA, Free Zones, Nigeria Quarantine Services, Standards Organisation of Nigeria (SON), Authorities and the Nigeria Ports Authority.</span><br></p><p><br></p>"
@@ -593,13 +649,13 @@
             "paddingTop": "1",
             "paddingBottom": "1",
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#432827",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#432827",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
           },
           "text": "Copyright (c) 2017 Mualsara Nigeria Limited"
         },
@@ -618,25 +674,68 @@
           "_name": "content5",
           "_anchor": "content5-1h",
           "_params": {
+            "showTitle": true,
+            "showCaption": true,
             "paddingTop": "1",
             "paddingBottom": "0",
             "bgImageRadio": true,
-            "parallax": true,
             "bgImage": "@PROJECT_PATH@/assets/images/70529089-2000x1333.jpg",
-            "bgColor": "#fff",
+            "parallax": true,
             "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": "0.3",
             "overlayColor": "#000",
-            "showTitle": true,
-            "showCaption": true
+            "overlayOpacity": "0.3"
           },
           "title": "Professional Associations",
           "caption": "<p><span style=\"font-size: 1.07rem; line-height: 1.5;\">Mualsara Nigeria Limited is in association with various interest groups comprising of companies and competitors alike, striving to create conducive environment for operating in regions of interest.&nbsp;</span><br></p><p><span style=\"font-size: 1.07rem; line-height: 1.5;\">1. Berthing Meeting Commitee Area 1, Port Harcourt Port.</span><br></p><p>2. Berthing Meeting Commitee Area 2, Onne Port.</p><p>3. Shipping Trade Group (STG).</p><p>4. Association of Nigeria Licenced Customs Agents (ANCLA).</p><p><br></p>"
+        },
+        {
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
+            "overlay": false,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": "0"
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/mualsara-logo-128x118.png",
+              "width": 128,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "text1": "<strong>Address</strong><br>\n1234 Street Name<br>\nCity, AA 99999",
+          "text2": "<strong>Contacts</strong><br>\nEmail: support@mobirise.com<br>\nPhone: +1 (0) 000 0000 001<br>\nFax: +1 (0) 000 0000 002",
+          "text3": "<font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\"><span style=\"font-size: 16px; letter-spacing: -1px;\"><b>Designed by</b></span></font><br><br>K4oxMedia Interactive<br>www.k4oxmedia.com<br>info@k4oxmedia.com",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-1j",
+          "_styles": {
+            "P": {
+              "color": "#f7da64"
+            }
+          }
         }
       ]
     },
@@ -654,24 +753,27 @@
             },
             ".navbar-caption": {
               "color": "#ffffff",
-              "font-size": "25px",
-              "font-family": "'Merriweather', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Merriweather:400,300,700"
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
+              "font-size": "25px"
             },
             ".navbar-toggler": {
               "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
             },
             ".link, .dropdown-item": {
               "color": "#ffffff"
             },
             ".link": {
-              "font-size": "0.6rem"
+              "font-size": "0.7rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.650rem"
+              "font-size": "0.758rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
-              "color": "#c0a375"
+              "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
               "background": "#0e0e0e"
@@ -690,48 +792,49 @@
               "transition": "color .2s ease-in-out"
             },
             ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
-              "color": "#c0a375"
+              "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#c0a375!important"
-            },
-            ".close-icon::before, .close-icon::after": {
-              "background-color": "#ffffff"
+              "color": "#fac51c!important"
             }
           },
           "_name": "menu",
           "_anchor": "menu-6",
           "_params": {
-            "bgColor": "#282828",
-            "fontSize": "0.6",
-            "fontName": {},
-            "fontColor": "#ffffff",
-            "fontHoverColor": "#c0a375",
-            "transparent": true,
-            "sticky": true,
             "logo": true,
             "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
             "collapsed": true,
-            "hideButtons": false
+            "transparent": true,
+            "bgColor": "#282828",
+            "fontSize": "0.7",
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/logo-mualsara-raw-139x128.png",
+              "src": "@PROJECT_PATH@/assets/images/mualsara-logo-138x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
+              "link": "www.mualsara.com",
               "title": "",
               "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
               "link": "https://mobirise.com",
-              "size": 0
+              "size": 0,
+              "linkInNewWindow": false,
+              "name": "mobirise",
+              "family": "MobiriseIcons",
+              "newWindow": false
             }
           },
-          "brand": "<a class=\"navbar-caption text-white\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MUALSARA NIGERIA LIMITED</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white-outline btn-white\" href=\"index.html\">HOME</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"about.html\">ABOUT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"services.html\">SERVICES</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"clients.html\">CLIENTS</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"contact.html\">CONTACT</a></li>"
+          "brand": "<a class=\"navbar-caption text-white\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MUALSARA NIGERIA LIMITED</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">MENU</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">HOME</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"about.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">ABOUT US</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"about.html#content6-n\" aria-expanded=\"false\">Our Story</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"about.html#content7-13\">Our Policies</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"about.html#content5-14\" aria-expanded=\"false\">The Team</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"about.html#content5-1h\" aria-expanded=\"false\">Professional Associations</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"services.html\" aria-expanded=\"false\">OUR SERVICES</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"clients.html\">OUR CLIENTS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"contact.html\">CONTACT US</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">DOWNLOADS</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://www.customs.gov.ng/Tariff/CET_tariff.xls\" target=\"_blank\">HS CODES OFFLINE VERSION &nbsp;</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">COMPANY PROFILE PDF</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\"></a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white-outline btn-white\" href=\"https://www.customs.gov.ng/Tariff/index.php\" target=\"_blank\"><span class=\"mbri-file mbr-iconfont mbr-iconfont-btn\"></span>NIGERIA CUSTOMS HS CODES</a></li>"
         },
         {
           "_name": "footer1",
@@ -740,13 +843,13 @@
             "paddingTop": "1",
             "paddingBottom": "1",
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#432827",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#432827",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
           },
           "text": "Copyright (c) 2017 Mualsara Nigeria Limited"
         },
@@ -766,22 +869,22 @@
           "_name": "content5",
           "_anchor": "content5-18",
           "_params": {
+            "showTitle": true,
+            "showCaption": true,
             "paddingTop": "3",
             "paddingBottom": "0",
             "bgImageRadio": true,
-            "parallax": true,
             "bgImage": "@PROJECT_PATH@/assets/images/airc-3-2000x1285.jpg",
-            "bgColor": "#fff",
+            "parallax": true,
             "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": "0.1",
             "overlayColor": "#000",
-            "showTitle": true,
-            "showCaption": true
+            "overlayOpacity": "0.1"
           },
           "title": "Our Esteemed Clients",
           "caption": ""
@@ -793,8 +896,15 @@
           ],
           "_name": "gallery3",
           "_params": {
+            "showBullets": false,
+            "fullWidth": true,
+            "spacing": 1,
             "paddingTop": "0",
             "paddingBottom": "0",
+            "filterBgColor": true,
+            "bgColor": "#475577",
+            "showText": false,
+            "filter": false,
             "images": [
               {
                 "tags": "Awesome",
@@ -906,25 +1016,61 @@
                 "caption": "Type caption here",
                 "active": false
               }
-            ],
-            "spacing": "3",
-            "showText": false,
-            "filter": false,
-            "bgColor": "#475577",
-            "filterBgColor": true,
-            "fullWidth": true,
-            "showBullets": false
+            ]
           },
           "_anchor": "gallery3-16",
           "articleLayout": false,
           "allItem": "All"
+        },
+        {
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
+            "overlay": false,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": "0"
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/mualsara-logo-128x118.png",
+              "width": 128,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "text1": "<strong>Address</strong><br>\n1234 Street Name<br>\nCity, AA 99999",
+          "text2": "<strong>Contacts</strong><br>\nEmail: support@mobirise.com<br>\nPhone: +1 (0) 000 0000 001<br>\nFax: +1 (0) 000 0000 002",
+          "text3": "<font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\"><span style=\"font-size: 16px; letter-spacing: -1px;\"><b>Designed by</b></span></font><br><br>K4oxMedia Interactive<br>www.k4oxmedia.com<br>info@k4oxmedia.com",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-1j",
+          "_styles": {
+            "P": {
+              "color": "#f7da64"
+            }
+          }
         }
       ]
     },
     "contact.html": {
       "settings": {
         "title": "Mualsara Nigeria Limited | Contact",
-        "meta_descr": "Mualsara Nigeria Limited contact page. Requests for services can be made here",
+        "meta_descr": "Mualsara Nigeria Limited contact page. Requests for services, enquiries and complaints can be made here. ",
         "order": 5
       },
       "components": [
@@ -935,24 +1081,27 @@
             },
             ".navbar-caption": {
               "color": "#ffffff",
-              "font-size": "25px",
-              "font-family": "'Merriweather', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Merriweather:400,300,700"
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
+              "font-size": "25px"
             },
             ".navbar-toggler": {
               "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
             },
             ".link, .dropdown-item": {
               "color": "#ffffff"
             },
             ".link": {
-              "font-size": "0.6rem"
+              "font-size": "0.7rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.650rem"
+              "font-size": "0.758rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
-              "color": "#c0a375"
+              "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
               "background": "#0e0e0e"
@@ -971,48 +1120,49 @@
               "transition": "color .2s ease-in-out"
             },
             ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
-              "color": "#c0a375"
+              "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#c0a375!important"
-            },
-            ".close-icon::before, .close-icon::after": {
-              "background-color": "#ffffff"
+              "color": "#fac51c!important"
             }
           },
           "_name": "menu",
           "_anchor": "menu-8",
           "_params": {
-            "bgColor": "#282828",
-            "fontSize": "0.6",
-            "fontName": {},
-            "fontColor": "#ffffff",
-            "fontHoverColor": "#c0a375",
-            "transparent": true,
-            "sticky": true,
             "logo": true,
             "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
             "collapsed": true,
-            "hideButtons": false
+            "transparent": true,
+            "bgColor": "#282828",
+            "fontSize": "0.7",
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/logo-mualsara-raw-139x128.png",
+              "src": "@PROJECT_PATH@/assets/images/mualsara-logo-138x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "",
+              "link": "www.mualsara.com",
               "title": "",
               "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
               "link": "https://mobirise.com",
-              "size": 0
+              "size": 0,
+              "linkInNewWindow": false,
+              "name": "mobirise",
+              "family": "MobiriseIcons",
+              "newWindow": false
             }
           },
-          "brand": "<a class=\"navbar-caption text-white\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MUALSARA NIGERIA LIMITED</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white-outline btn-white\" href=\"index.html\">HOME</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"about.html\">ABOUT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"services.html\">SERVICES</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"clients.html\">CLIENTS</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"contact.html\">CONTACT</a></li>"
+          "brand": "<a class=\"navbar-caption text-white\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MUALSARA NIGERIA LIMITED</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">MENU</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">HOME</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"about.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">ABOUT US</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"about.html#content6-n\" aria-expanded=\"false\">Our Story</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"about.html#content7-13\">Our Policies</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"about.html#content5-14\" aria-expanded=\"false\">The Team</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"about.html#content5-1h\" aria-expanded=\"false\">Professional Associations</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"services.html\" aria-expanded=\"false\">OUR SERVICES</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"clients.html\">OUR CLIENTS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"contact.html\">CONTACT US</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">DOWNLOADS</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://www.customs.gov.ng/Tariff/CET_tariff.xls\" target=\"_blank\">HS CODES OFFLINE VERSION &nbsp;</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">COMPANY PROFILE PDF</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\"></a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white-outline btn-white\" href=\"https://www.customs.gov.ng/Tariff/index.php\" target=\"_blank\"><span class=\"mbri-file mbr-iconfont mbr-iconfont-btn\"></span>NIGERIA CUSTOMS HS CODES</a></li>"
         },
         {
           "_name": "footer1",
@@ -1021,13 +1171,13 @@
             "paddingTop": "1",
             "paddingBottom": "1",
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#432827",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#432827",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
           },
           "text": "Copyright (c) 2017 Mualsara Nigeria Limited"
         },
@@ -1038,7 +1188,7 @@
           "_name": "form1",
           "_styles": {
             ".form-control-label": {
-              "color": "#ffffff"
+              "color": "#232323"
             },
             ".mbr-section-title": {
               "text-align": "left",
@@ -1052,19 +1202,19 @@
           },
           "_anchor": "form1-1g",
           "_params": {
-            "labelsColor": "#ffffff",
+            "showTitle": true,
+            "showSubTitle": true,
+            "labelsColor": "#232323",
             "paddingTop": "3",
             "paddingBottom": "1",
             "bgImageRadio": true,
-            "parallax": true,
             "bgImage": "@PROJECT_PATH@/assets/images/decreased-2000x1300.jpg",
-            "bgColor": "#fff",
+            "parallax": true,
             "bgColorRadio": false,
+            "bgColor": "#fff",
             "overlay": true,
-            "overlayOpacity": "0.4",
             "overlayColor": "#222",
-            "showTitle": true,
-            "showSubTitle": true
+            "overlayOpacity": "0.4"
           },
           "title": "Contact Us",
           "subtitle": "Get in touch with us. A discussion is all it takes to arrive to your needed logistics solutions.",
@@ -1115,13 +1265,13 @@
             "paddingTop": "1",
             "paddingBottom": "1",
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@PROJECT_PATH@/assets/images/euro-pallets-1-2000x1296.jpg",
-            "bgColor": "#000000",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#000000",
             "overlay": true,
-            "overlayOpacity": "0.6",
             "overlayColor": "#000000",
+            "overlayOpacity": "0.6",
             "googleMap": {
               "address": "18 Lagos Street\nPort Harcourt, Rivers State",
               "placeId": "ChIJz93SrO_LaRARAHnsT0LesyY",
@@ -1148,24 +1298,27 @@
             },
             ".navbar-caption": {
               "color": "#ffffff",
-              "font-size": "25px",
-              "font-family": "'Merriweather', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Merriweather:400,300,700"
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
+              "font-size": "25px"
             },
             ".navbar-toggler": {
               "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
             },
             ".link, .dropdown-item": {
               "color": "#ffffff"
             },
             ".link": {
-              "font-size": "0.6rem"
+              "font-size": "0.7rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.650rem"
+              "font-size": "0.758rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
-              "color": "#c0a375"
+              "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
               "background": "#0e0e0e"
@@ -1184,48 +1337,49 @@
               "transition": "color .2s ease-in-out"
             },
             ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
-              "color": "#c0a375"
+              "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#c0a375!important"
-            },
-            ".close-icon::before, .close-icon::after": {
-              "background-color": "#ffffff"
+              "color": "#fac51c!important"
             }
           },
           "_name": "menu",
           "_anchor": "menu-4",
           "_params": {
-            "bgColor": "#282828",
-            "fontSize": "0.6",
-            "fontName": {},
-            "fontColor": "#ffffff",
-            "fontHoverColor": "#c0a375",
-            "transparent": true,
-            "sticky": true,
             "logo": true,
             "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
             "collapsed": true,
-            "hideButtons": false
+            "transparent": true,
+            "bgColor": "#282828",
+            "fontSize": "0.7",
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/logo-mualsara-raw-139x128.png",
+              "src": "@PROJECT_PATH@/assets/images/mualsara-logo-138x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "",
+              "link": "www.mualsara.com",
               "title": "",
               "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
               "link": "https://mobirise.com",
-              "size": 0
+              "size": 0,
+              "linkInNewWindow": false,
+              "name": "mobirise",
+              "family": "MobiriseIcons",
+              "newWindow": false
             }
           },
-          "brand": "<a class=\"navbar-caption text-white\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MUALSARA NIGERIA LIMITED</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white-outline btn-white\" href=\"index.html\">HOME</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"about.html\">ABOUT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"services.html\">SERVICES</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"clients.html\">CLIENTS</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"contact.html\">CONTACT</a></li>"
+          "brand": "<a class=\"navbar-caption text-white\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MUALSARA NIGERIA LIMITED</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">MENU</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">HOME</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"about.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">ABOUT US</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"about.html#content6-n\" aria-expanded=\"false\">Our Story</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"about.html#content7-13\">Our Policies</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"about.html#content5-14\" aria-expanded=\"false\">The Team</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"about.html#content5-1h\" aria-expanded=\"false\">Professional Associations</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"services.html\" aria-expanded=\"false\">OUR SERVICES</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"clients.html\">OUR CLIENTS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"contact.html\">CONTACT US</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">DOWNLOADS</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://www.customs.gov.ng/Tariff/CET_tariff.xls\" target=\"_blank\">HS CODES OFFLINE VERSION &nbsp;</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">COMPANY PROFILE PDF</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\"></a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white-outline btn-white\" href=\"https://www.customs.gov.ng/Tariff/index.php\" target=\"_blank\"><span class=\"mbri-file mbr-iconfont mbr-iconfont-btn\"></span>NIGERIA CUSTOMS HS CODES</a></li>"
         },
         {
           "_name": "footer1",
@@ -1234,13 +1388,13 @@
             "paddingTop": "1",
             "paddingBottom": "1",
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#432827",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#432827",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
           },
           "text": "Copyright (c) 2017 Mualsara Nigeria Limited"
         },
@@ -1265,23 +1419,23 @@
           "_name": "msg-box8",
           "_anchor": "msg-box8-y",
           "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButton": false,
             "paddingTop": "3",
             "paddingBottom": "0",
-            "parallax": false,
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/maxresdefault-2000x1125.jpg",
-            "bgColor": "#F2F2F2",
+            "parallax": false,
             "bgColorRadio": false,
+            "bgColor": "#F2F2F2",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": "0",
             "overlayColor": "#222",
-            "showTitle": true,
-            "showText": true,
-            "showButton": false
+            "overlayOpacity": "0"
           },
           "title": "Our Services",
           "text": "<p><span style=\"font-size: 1.07rem; line-height: 1.5;\">Mualsara Nigeria Limited has developed an integrated end to end logistics, marine and air cargo solutions in Nigeria since its inception in 2007. we provide supply chain solutions to our customers from the source to the final destination. We are located in Port Harcourt, Lagos and Warri, Nigeria. Our logistics services comprise of customs clearances, shipping, freight forwarding, warehousing, transportation, port services, air cargo handling and exporting. We readily serve local and international markets while focusing on satisfying needs especially in the oil and gas, power and construction sectors within Nigeria. Our services include but are not limited to the following.</span><br></p><p>.</p>",
@@ -1310,6 +1464,49 @@
           "text1": "<h4>Customs Clearance&nbsp;</h4><h4><span style=\"font-size: 1.07rem; line-height: 1.5; font-weight: 300; font-family: Raleway, sans-serif;\">As a Licensed Customs Agent, we offer effective customs formalities and documentation ensuring prompt clearing from Sea Ports,Air Ports and Land Border entries. Containerized cargo, wet bulk, air cargo and specialized project materials areonly but a few mentioned shipments types we handle.</span></h4><p>Experienced Customs Clearing personnel are available to assist with tariff classifications, audits and detailed costing. We have adopted business processes that interface with third party systems and accomplish excellent results thanks to our dedicated management team.&nbsp;</p><p>We guarantee delivery of client's cargo on the term, place and time agreed, following careful planning and execution.&nbsp;</p><p><br></p><h4>Door to Door and Third Party Logistics&nbsp;</h4><p>Mualsara Nigeria Limited offers Door-to-Door delivery services either as a direct request where a client desires, or when acting as a Third Party Logistics (3PL) sevice provider for our foreign partners,</p><p><br></p><h4>Air Freight Handling &nbsp;&nbsp;</h4><p>MNL understands that our customers demand safe, secure and swift handling of their cargo at cost effective rates. We are experienced in handling high priority and delicate shipments usually sent by air. A 72-hour advance Estimated Time of Arrival (ETA) notice is enough for our seasoned air cargo staff to commence preparation to undertake clearance of these urgent shipments while respecting all government regulations and international standards in air shipment clearance and delivery.</p>",
           "text2": "<h4>Ship Agency, Stevedoring and Husbanding</h4><p>As agents, MNL handles vessels efficiently in and out at any Nigerian Sea Port. At the dockside we husband vessels under our agency with utmost diligence, dedication and efficiency to ensure a quick and prompt berthing, stevedoring and outward dispatch to sea. We pride ourselves in providing professional Stevedoring services combined with a dedicated and knowledgeable team. Our experience and thorough understanding of operations at the Port Harcourt, Onne and Apapa Ports enables us to provide customized solutions to your logistics requirements. Our commitment to our clients the provision of reliable service.&nbsp;</p><p><br></p><h4>Port Services &nbsp;&nbsp;</h4><p>Mualsara Nigeria Limited arranges and brokers charter of ships, Tug Boats, Barges, tankers etc. for our clients. We have the technical capability to provide equipment both locally and internationally through our reputable affiliates who are major operators in the oil and gas/marine service industry. This affords us the use of these equipment locally available for immediate deployment.</p><p><br></p><h4>Freight-Forwarding and Haulage&nbsp;</h4><p>As experts in Logistics networking, we position ourselves as a strategic partner and intermediary in your international shipments. We ensure adequate preparation of paperwork for documentation and guide on regulations and customs requirements in the country of destination. We facilitate domestic transportation by road, air, rail or barges to match with your timing and cost requirements. Depending on the importance of the shipment we can organize security escorts to final destination.</p>",
           "text3": "<h4>Exportation&nbsp;</h4><p>Prospective clients with export permit from the government wishing to export goods will benefit from the deep knowledge, experience and competence of our professional freight forwarding staff. Our export services team navigates the latest regulations, minimizes paperwork, expedites transit, and lowers shipping costs with truly personalized service. we also handle exportation of personal effects.</p><p><br></p><h4>Value Added Services</h4><p>As your choice agent Mualsara Nigeria Limited offers you free access to our years of experience to facilitate your supply chain management and logistics problems. We are accessible at all times you need our advice or visit at short notice to grasp the particular problem from your customers' point of view andproffer solutions or alternatives as soon as possible and practicable. We also provide you with assistance and guidance on the following</p><p><br></p><ul><li>Form M and banking documentation</li><li>Analyzing the Harmonized System  Commodity Code (HSCODE) data bank</li><li>Import/export freezones and other existing tariff concession systems.</li><li>Customs valuation / valuation advice</li><li>Other government agencies regulations and procedures&nbsp;</li><li>Cargo consolidation and door-to-door landing costings&nbsp;</li><li>Bounties and export development grants</li><li>Export documentation and declarations (commercial invoices etc.)&nbsp;</li><li>Bonded warehouse requirements and services</li><li>In house customs duty audits&nbsp;</li><li>Review of customs decisions and representation in disputes</li><li>Arrangement of adequate warehousing services</li><li>Priority cargo security in the warehouse and on transit</li><li>Temporary importation (T.I.) on project materials</li></ul><p><br></p>"
+        },
+        {
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
+            "overlay": false,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": "0"
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/mualsara-logo-128x118.png",
+              "width": 128,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "text1": "<strong>Address</strong><br>\n1234 Street Name<br>\nCity, AA 99999",
+          "text2": "<strong>Contacts</strong><br>\nEmail: support@mobirise.com<br>\nPhone: +1 (0) 000 0000 001<br>\nFax: +1 (0) 000 0000 002",
+          "text3": "<font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\"><span style=\"font-size: 16px; letter-spacing: -1px;\"><b>Designed by</b></span></font><br><br>K4oxMedia Interactive<br>www.k4oxmedia.com<br>info@k4oxmedia.com",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-1j",
+          "_styles": {
+            "P": {
+              "color": "#f7da64"
+            }
+          }
         }
       ]
     }
