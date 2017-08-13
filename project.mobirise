@@ -22,7 +22,7 @@
       },
       "additionalSetColors": []
     },
-    "favicon": "@PROJECT_PATH@/assets/images/mualsara-logo-128x1182.png",
+    "favicon": "@PROJECT_PATH@/assets/images/mualsara-logo-128x1183.png",
     "noImageResize": "",
     "versionFirst": "3.12.1",
     "uniqCompNum": 64,
@@ -80,7 +80,7 @@
             "paddingBottom": 3,
             "showBullets": false,
             "bgColor": "#fff",
-            "timeout": "4",
+            "timeout": "7",
             "slides": [
               {
                 "active": true,
