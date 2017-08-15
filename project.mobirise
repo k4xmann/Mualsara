@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "contact.html",
+    "currentPage": "index.html",
     "name": "Mualsara Nigeria Limited",
     "theme": {
       "name": "mobirise3",
@@ -30,7 +30,7 @@
         "#e6ecff"
       ]
     },
-    "favicon": "@PROJECT_PATH@/assets/images/mualsara-logo-128x11815.png",
+    "favicon": "@PROJECT_PATH@/assets/images/mualsara-logo-128x11816.png",
     "noImageResize": "",
     "versionFirst": "3.12.1",
     "uniqCompNum": 83,
@@ -300,13 +300,13 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#927d7d"
+              "background": "#0054d1"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#a29191!important"
+              "background": "#0062f5!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#a99999"
+              "background": "#0569ff"
             },
             ".bg-color.transparent .link": {
               "color": "#ffffff",
