@@ -21,6 +21,7 @@
         "isRtl": false
       },
       "additionalSetColors": [
+        "#20385c",
         "#232323",
         "#a99999",
         "#f7ccc7",
@@ -29,7 +30,7 @@
         "#1dffb3"
       ]
     },
-    "favicon": "@PROJECT_PATH@/assets/images/mualsara-logo-128x11810.png",
+    "favicon": "@PROJECT_PATH@/assets/images/mualsara-logo-128x11811.png",
     "noImageResize": "",
     "versionFirst": "3.12.1",
     "uniqCompNum": 79,
@@ -356,7 +357,7 @@
           "_params": {
             "paddingTop": "5",
             "paddingBottom": "2",
-            "bgColor": "#e6ecff"
+            "bgColor": "#63bae9"
           },
           "text1": "<h2>Our Story</h2><p>Out of the passion to offer seamless logistics services to meet the ever increasing demand for direct services to Clients and the Nigeria Ports Authority with special focus on freight forwarding, customs clearing, shipping and logistics support services, Mualsara Nigeria Limited was incorporated on 5th June 2007 under the Corporate Affairs Commission of Nigeria with <i>RC No. 694022</i>.</p><p>Mualsara Nigeria Limited also known as MNL has since its inception provided advanced customer-specific value creating solutions supported by an IT based Supply Chain Management (SCM) System.</p><p><br></p>",
           "text2": "<p><br></p><p>We handle services on conventional shipments and we have also contributed over years and immensely improved in managing Project cargo for clients in the Oil and Gas Industry. As a customs clearing and forwarding agent, Mualsara Nigeria Limited is fully operational in Nigeria through its offices that guarantee an effective presence of the company all across the country.&nbsp;</p><p>Our experienced staff are always dedicated to provide you with logistics solutions, customized to yo<span style=\"font-size: 1.07rem; line-height: 1.5;\">ur particular needs. Our core interest lies in serving customers with global sourcing and supply-chain management needs, creating value through innovative logistics solutions and ensuring satisfactory delivery of their total logistics requirements and services relating to their business.</span></p>"
@@ -459,16 +460,16 @@
           "_name": "features2",
           "_styles": {
             ".striped .mbr-cards-col:nth-child(2n+1)": {
-              "background-color": "#2969b0"
+              "background-color": "#20385c"
             },
             ".mbr-cards-col:nth-child(even) .card-title": {
-              "color": "#ffffff"
+              "color": "#efefef"
             },
             ".mbr-cards-col:nth-child(even) .card-text": {
               "color": "#232323"
             },
             ".mbr-cards-col:nth-child(even) .card-text B": {
-              "color": "#ffffff"
+              "color": "#efefef"
             },
             ".mbr-cards-col:nth-child(even) .card-subtitle": {
               "text-align": "left"
@@ -481,7 +482,7 @@
             "showSubtitles": true,
             "ShowTexts": true,
             "showButtons": false,
-            "columnsColor": "#2969b0",
+            "columnsColor": "#20385c",
             "paddingTop": "2",
             "paddingBottom": "1",
             "columns": "3",

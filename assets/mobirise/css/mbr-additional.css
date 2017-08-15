@@ -573,16 +573,16 @@ h6,
   color: #fac51c!important;
 }
 #features2-p .striped .mbr-cards-col:nth-child(2n+1) {
-  background-color: #2969b0;
+  background-color: #20385c;
 }
 #features2-p .mbr-cards-col:nth-child(even) .card-title {
-  color: #ffffff;
+  color: #efefef;
 }
 #features2-p .mbr-cards-col:nth-child(even) .card-text {
   color: #232323;
 }
 #features2-p .mbr-cards-col:nth-child(even) .card-text B {
-  color: #ffffff;
+  color: #efefef;
 }
 #features2-p .mbr-cards-col:nth-child(even) .card-subtitle {
   text-align: left;
