@@ -29,7 +29,7 @@
         "#1dffb3"
       ]
     },
-    "favicon": "@PROJECT_PATH@/assets/images/mualsara-logo-128x1187.png",
+    "favicon": "@PROJECT_PATH@/assets/images/mualsara-logo-128x1188.png",
     "noImageResize": "",
     "versionFirst": "3.12.1",
     "uniqCompNum": 79,
@@ -180,9 +180,9 @@
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#000000",
-            "overlay": false,
+            "overlay": true,
             "overlayColor": "#3C3C3C",
-            "overlayOpacity": "0"
+            "overlayOpacity": "0.2"
           },
           "logo": {
             "image": {
@@ -706,9 +706,9 @@
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#000000",
-            "overlay": false,
+            "overlay": true,
             "overlayColor": "#3C3C3C",
-            "overlayOpacity": "0"
+            "overlayOpacity": "0.2"
           },
           "logo": {
             "image": {
@@ -1048,9 +1048,9 @@
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#000000",
-            "overlay": false,
+            "overlay": true,
             "overlayColor": "#3C3C3C",
-            "overlayOpacity": "0"
+            "overlayOpacity": "0.2"
           },
           "logo": {
             "image": {
@@ -1590,9 +1590,9 @@
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#000000",
-            "overlay": false,
+            "overlay": true,
             "overlayColor": "#3C3C3C",
-            "overlayOpacity": "0"
+            "overlayOpacity": "0.2"
           },
           "logo": {
             "image": {
