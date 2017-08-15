@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "about.html",
+    "currentPage": "services.html",
     "name": "Mualsara Nigeria Limited",
     "theme": {
       "name": "mobirise3",
@@ -30,10 +30,10 @@
         "#1dffb3"
       ]
     },
-    "favicon": "@PROJECT_PATH@/assets/images/mualsara-logo-128x11811.png",
+    "favicon": "@PROJECT_PATH@/assets/images/mualsara-logo-128x11812.png",
     "noImageResize": "",
     "versionFirst": "3.12.1",
-    "uniqCompNum": 79,
+    "uniqCompNum": 83,
     "versionPublish": "4.1.2",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
@@ -166,6 +166,35 @@
               "color": "#ffffff"
             }
           }
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .btn-social": {
+              "color": "#232323"
+            },
+            ".mbr-section-title": {
+              "font-size": "30px"
+            }
+          },
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": true,
+            "bgImage": "@THEME_PATH@/components/_images/landscape3.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "text": "FOLLOW US",
+          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-googleplus\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"YouTube\" target=\"_blank\" href=\"https://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-youtube\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/mobirise/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-instagram\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Pinterest\" target=\"_blank\" href=\"https://www.pinterest.com/mobirise/\"><i class=\"socicon socicon-pinterest\"></i></a>  <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com/in/mobirise\"><i class=\"socicon socicon-linkedin\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"VKontakte\" target=\"_blank\" href=\"#\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-vkontakte\"></i></a>  ",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons2",
+          "_anchor": "social-buttons2-2a"
         },
         {
           "_tags": [
@@ -754,6 +783,35 @@
               "color": "#cccccc"
             }
           }
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .btn-social": {
+              "color": "#232323"
+            },
+            ".mbr-section-title": {
+              "font-size": "30px"
+            }
+          },
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgImageRadio": true,
+            "bgImage": "@THEME_PATH@/components/_images/landscape3.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "text": "FOLLOW US",
+          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-googleplus\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"YouTube\" target=\"_blank\" href=\"https://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-youtube\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/mobirise/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-instagram\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Pinterest\" target=\"_blank\" href=\"https://www.pinterest.com/mobirise/\"><i class=\"socicon socicon-pinterest\"></i></a>  <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com/in/mobirise\"><i class=\"socicon socicon-linkedin\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"VKontakte\" target=\"_blank\" href=\"#\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-vkontakte\"></i></a>  ",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons2",
+          "_anchor": "social-buttons2-29"
         }
       ]
     },
@@ -1570,7 +1628,7 @@
             "paddingBottom": 1,
             "bgColor": "#e6ecff"
           },
-          "text": "<p><b>Value Added Services</b>\n</p><p>\n<span style=\"font-size: 1.07rem;\">As your choice agent Mualsara Nigeria Limited offers you free access to our years of experience to facilitate your supply chain management and logistics problems. We are accessible at all times you need our advice or visit at short notice to grasp the particular problem from your customers' point of view andproffer solutions or alternatives as soon as possible and practicable. We also provide you with assistance and guidance on the following&nbsp;</span></p><p><i style=\"font-size: 1.07rem;\"><b>-Form M and banking documentation</b></i><br></p><p><b><i style=\"font-size: 1.07rem;\">-Analyzing the Harmonized System Commodity Code (HSCODE) data bank&nbsp;</i><br></b></p><p><i><b>-Import/export freezones and other existing tariff concession systems.\n</b></i></p><p><i><b>-Customs valuation / valuation advice\n</b></i></p><p><i><b>-Other government agencies regulations and procedures \n</b></i></p><p><i><b>-Cargo consolidation and door-to-door landing costings \n</b></i></p><p><i><b>-Bounties and export development grants\n</b></i></p><p><i><b>-Export documentation and declarations (commercial invoices etc.) \n</b></i></p><p><i><b>-Bonded warehouse requirements and services\n</b></i></p><p><i><b>-In house customs duty audits \n</b></i></p><p><i><b>-Review of customs decisions and representation in disputes\n</b></i></p><p><i><b>-Arrangement of adequate warehousing services\n</b></i></p><p><i><b>-Priority cargo security in the warehouse and on transit\n</b></i></p><p><i><b>-Temporary importation (T.I.) on project materials</b></i></p>",
+          "text": "<p><b>Value Added Services</b>\n</p><p>\n<span style=\"font-size: 1.07rem;\">As your choice agent Mualsara Nigeria Limited offers you free access to our years of experience to facilitate your supply chain management and logistics problems. We are accessible at all times you need our advice or visit at short notice to grasp the particular problem from your customers' point of view andproffer solutions or alternatives as soon as possible and practicable. We also provide you with assistance and guidance on the following&nbsp;</span></p><p><span style=\"font-size: 1.07rem;\"><br></span></p><p><i style=\"font-size: 1.07rem;\"><b>-Form M and banking documentation</b></i><br></p><p><b><i style=\"font-size: 1.07rem;\">-Analyzing the Harmonized System Commodity Code (HSCODE) data bank&nbsp;</i><br></b></p><p><i><b>-Import/export freezones and other existing tariff concession systems.\n</b></i></p><p><i><b>-Customs valuation / valuation advice\n</b></i></p><p><i><b>-Other government agencies regulations and procedures \n</b></i></p><p><i><b>-Cargo consolidation and door-to-door landing costings \n</b></i></p><p><i><b>-Bounties and export development grants\n</b></i></p><p><i><b>-Export documentation and declarations (commercial invoices etc.) \n</b></i></p><p><i><b>-Bonded warehouse requirements and services\n</b></i></p><p><i><b>-In house customs duty audits \n</b></i></p><p><i><b>-Review of customs decisions and representation in disputes\n</b></i></p><p><i><b>-Arrangement of adequate warehousing services\n</b></i></p><p><i><b>-Priority cargo security in the warehouse and on transit\n</b></i></p><p><i><b>-Temporary importation (T.I.) on project materials</b></i></p>",
           "_tags": [
             "Theme"
           ],

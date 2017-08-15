@@ -421,6 +421,13 @@ h6,
   font-size: 30px;
   color: #ffffff;
 }
+#social-buttons2-2a .mbr-section-title,
+#social-buttons2-2a .btn-social {
+  color: #232323;
+}
+#social-buttons2-2a .mbr-section-title {
+  font-size: 30px;
+}
 #contacts1-1j P {
   color: #efefef;
   font-size: 15px;
@@ -625,6 +632,13 @@ h6,
 }
 #contacts1-1j B {
   color: #cccccc;
+}
+#social-buttons2-29 .mbr-section-title,
+#social-buttons2-29 .btn-social {
+  color: #232323;
+}
+#social-buttons2-29 .mbr-section-title {
+  font-size: 30px;
 }
 
 
